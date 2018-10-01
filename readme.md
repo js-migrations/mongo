@@ -1,5 +1,5 @@
 # mongo
-> Implementation of the js-migrations RepoFacade using mongo
+> Implementation of the js-migrations RepoFacade using Mongo.
 
 ### Usage
 1. Install it with `npm i @js-migrations/mongo`.
@@ -13,23 +13,18 @@ import connectToDb from '@js-migrations/mongo/dist/utils/connectToDb';
 
 const migrationsRepoFacade = mongoMigrationsRepoFactory({
   db: connectToDb({
-    client: 'mysql',
-    connection: {
-      database: 'todoapp',
-      host: '127.0.0.1',
-      password: 'pword',
-      user: 'todouser',
-    },
+    dbName: 'your_db_name',
+    url: 'mongodb://127.0.0.1',
   }),
   // Optional property.
-  lockTableName: 'migrationsLock',
+  collectionName: 'migrations',
+  // Optional property.
+  lockCollectionName: 'migrationsLock',
   // Optional property.
   migrations: [{
     down: async () => {},
     key: 'your_migration_name',
     up: async () => {},
   }],
-  // Optional property.
-  tableName: 'migrations',
 });
 ```

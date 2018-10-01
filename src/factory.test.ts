@@ -1,4 +1,4 @@
-import * as sourceMapSupport from 'source-map-support';
+import sourceMapSupport from 'source-map-support';
 sourceMapSupport.install();
 
 import serviceFactory from '@js-migrations/core/dist/factory';

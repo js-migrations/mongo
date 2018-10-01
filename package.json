@@ -1,7 +1,7 @@
 {
   "name": "@js-migrations/mongo",
-  "version": "1.0.0",
-  "description": "Implementation of the js-migrations RepoFacade using mongo",
+  "version": "0.0.0-development",
+  "description": "Implementation of the js-migrations RepoFacade using Mongo.",
   "repository": {
     "type": "git",
     "url": "https://github.com/js-migrations/mongo"
