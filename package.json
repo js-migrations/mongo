@@ -34,7 +34,7 @@
     "@ht2-labs/semantic-release": "1.1.37",
     "@ht2-labs/typescript-project": "2.0.12",
     "@types/dotenv": "4.0.3",
-    "@types/lodash": "4.14.117",
+    "@types/lodash": "4.14.118",
     "@types/mocha": "5.2.5",
     "@types/mongodb": "3.1.14",
     "@types/node": "8.10.37",
