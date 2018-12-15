@@ -6,7 +6,7 @@ machine:
 jobs:
   build:
     docker:
-      - image: circleci/node:8@sha256:484ba96570850264402f30a82a2b6c5600473f95ce6e4781b31e349a05bd8785
+      - image: circleci/node:8@sha256:711e6d47c4ab52d11e33717aa045e9b15f2a45a9be47bd12cb11f6c824b84405
       - image: mongo:3.7.9@sha256:736eec20a17eafaa988d299902fcaab521cb0ca56af4400f782576afc878d6bc
     environment:
       - NPM_CONFIG_LOGLEVEL: warn
