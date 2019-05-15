@@ -36,7 +36,7 @@
     "@types/dotenv": "4.0.3",
     "@types/lodash": "4.14.129",
     "@types/mocha": "5.2.6",
-    "@types/mongodb": "3.1.26",
+    "@types/mongodb": "3.1.27",
     "@types/node": "8.10.48",
     "@types/source-map-support": "0.5.0",
     "assert-rejects": "0.1.1",
